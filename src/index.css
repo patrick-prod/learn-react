@@ -1,0 +1,70 @@
+body {
+  margin-left: 30px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+img {
+  border: 1px solid black;
+}
+
+.tipbar {
+  width: 400px;
+  height: 50px;
+  margin-top: 20px;
+  padding-left: 20px;
+  box-sizing: border-box;
+  line-height: 50px;
+}
+
+.warning {
+  border-left: 4px solid yellow;
+  background: #FFFAE1;
+  color: #777;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.fancy-border {
+  position: relative;
+  padding: 20px 30px;
+  border: 1px solid #000000;
+}
+
+.fancy-border::before {
+  position: absolute;
+  left: 15px;
+  top: -15px;
+  content: 'Temperature';
+  padding: 5px;
+  background: white;
+}
+
+.box {
+  display: flex;
+  flex-direction: row;
+  width: 100px;
+  height: 50px;
+  margin-top: 10px;
+}
+
+.small-box {
+  width: 50px;
+  height: 50px;
+}
+
+.box-warning {
+  background: blanchedalmond;
+}
+
+.box-danger {
+  background: cadetblue;
+}
