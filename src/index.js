@@ -22,4 +22,6 @@
 
 // import "./basic/todo/index";
 
-import "./basic/redux-todo/index";
+// import "./basic/redux-todo/index";
+
+import "./basic/react-redux-todo/index";
